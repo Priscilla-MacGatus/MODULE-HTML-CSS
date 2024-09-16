@@ -56,10 +56,19 @@ width:450px;
 
 
 
-
+/* Article 3 */
 
 
 
 .div_article3{
-border:0.5px solid  grey;     
+border:0.5px solid  grey;
+width: 500px;
+height:400px;
+position:relative;
+left: 850px; 
+bottom:500px;
+}
+
+.div_article3 img{
+width:100px;
 }
