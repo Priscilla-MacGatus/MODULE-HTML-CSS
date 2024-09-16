@@ -18,7 +18,7 @@ margin-bottom: 80px;
 }
 
 
-/* Article */
+/* Article 1 */
 
 .div_article1:first-child{
 text-align: center;
@@ -35,6 +35,8 @@ text-align: left;
 padding: 15px;
 }
 
+/* Article 2 */
+
 .div_article2{
 border:0.5px solid  grey; 
 width: 500px;
@@ -45,6 +47,18 @@ left: 300px;
 .div_article2 img{
 width:450px;    
 }
+
+
+.subdivided_div_article2{
+ border: 1px solid grey;    
+}
+
+
+
+
+
+
+
 
 .div_article3{
 border:0.5px solid  grey;     
