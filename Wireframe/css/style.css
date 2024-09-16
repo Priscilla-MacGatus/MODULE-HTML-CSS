@@ -116,19 +116,28 @@ color: aliceblue;
 /* Buttons */
 
 .subdivided_div_article1 button {
-color:grey;
+color:black;
 border-radius: 7px;
 border:0.5px solid grey;
+background-color: rgb(181, 207, 183);
+height:30px;
+width: 100px;
 }
 
 .subdivided_div_article2 button {
-color:grey;
+color:black;
 border-radius: 7px;
 border:0.5px solid grey;
+background-color: rgb(181, 207, 183);
+height:30px;
+width: 100px;
 }
 
 .subdivided_div_article3 button {
-color:grey;
+color:black;
 border-radius: 7px;
 border:0.5px solid grey;
+background-color: rgb(181, 207, 183);
+height:30px;
+width: 100px;
 }
