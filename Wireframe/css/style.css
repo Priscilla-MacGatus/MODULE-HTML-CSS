@@ -21,7 +21,10 @@ margin-bottom: 80px;
 /* Article 1 */
 
 .div_article1:first-child{
-text-align: center;
+border: 1px solid grey;
+width: 1000px;
+position: relative;
+left:300px ;
 }
 
 .div_article1 img{
@@ -29,17 +32,15 @@ text-align: center;
 height: 500px;   
 }
 
-
-
-.subdivided_div_article1{
-border: 1px solid grey;
-width: 967px;
-position: relative;
-left: 315px;
-bottom:4px;
-text-align: left;
+.div_article1 h4{
+    text-align: left;
 padding: 15px;
 }
+
+
+
+
+
 
 /* Article 2 */
 
