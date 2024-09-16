@@ -22,6 +22,17 @@ margin-bottom: 80px;
 
 .div_article1:first-child{
 text-align: center;
+
+}
+
+.subdivided_div_article1{
+border: 1px solid grey;
+width: 967px;
+position: relative;
+left: 315px;
+bottom:4px;
+text-align: left;
+padding: 15px;
 }
 
 .div_article2{
