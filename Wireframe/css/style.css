@@ -46,18 +46,18 @@ padding: 15px;
 .div_article2{
 border:0.5px solid  grey; 
 width: 500px;
+height: 420px;
 position: relative; 
 left: 300px;
+top:35px;
 }
 
 .div_article2 img{
-width:450px;    
+width:500px;    
 }
 
 
-.subdivided_div_article2{
- border: 1px solid grey;    
-}
+
 
 
 
@@ -69,12 +69,13 @@ width:450px;
 .div_article3{
 border:0.5px solid  grey;
 width: 500px;
-height:400px;
+height:420px;
 position:relative;
-left: 850px; 
-bottom:500px;
+left: 845px; 
+bottom:385px;
 }
 
 .div_article3 img{
-width:100px;
+width:500px;
+height: 250px;
 }
