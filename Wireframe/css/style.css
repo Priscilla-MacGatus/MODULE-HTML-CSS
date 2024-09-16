@@ -52,7 +52,7 @@ height: 500px;
 
 .subdivided_div_article1{
 text-align: left;
-padding: 10px;
+padding: 15px;
 font-family:Georgia, 'Times New Roman', Times, serif;
 color: aliceblue;
 }
@@ -68,7 +68,9 @@ width: 500px;
 height: 420px;
 position: relative; 
 left: 300px;
-top:35px;
+top:53px;
+overflow: hidden;
+padding-bottom:15px;
 }
 
 .div_article2 img{
@@ -97,6 +99,9 @@ height:420px;
 position:relative;
 left: 848px; 
 bottom:385px;
+overflow: hidden;
+padding-bottom:15px;
+    
 }
 
 .div_article3 img{
@@ -108,7 +113,7 @@ height: 250px;
 margin: 10px;
 font-family:Georgia, 'Times New Roman', Times, serif;
 color: aliceblue;
-    
+
 }
 
 
