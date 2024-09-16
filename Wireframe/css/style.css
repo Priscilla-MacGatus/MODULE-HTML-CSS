@@ -22,8 +22,14 @@ margin-bottom: 80px;
 
 .div_article1:first-child{
 text-align: center;
-
 }
+
+.div_article1 img{
+ width: 1000px; 
+height: 500px;   
+}
+
+
 
 .subdivided_div_article1{
 border: 1px solid grey;
