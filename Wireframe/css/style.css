@@ -92,7 +92,6 @@ width:500px;
 margin: 10px;  
 font-family:Georgia, 'Times New Roman', Times, serif; 
 color: aliceblue;
-
 }
 
 
@@ -111,8 +110,7 @@ position:relative;
 left: 848px; 
 bottom:385px;
 overflow: hidden;
-padding-bottom:15px;
-    
+padding-bottom:15px;   
 }
 
 .div_article3 img{
@@ -124,7 +122,6 @@ height: 250px;
 margin: 10px;
 font-family:Georgia, 'Times New Roman', Times, serif;
 color: aliceblue;
-
 }
 
 
