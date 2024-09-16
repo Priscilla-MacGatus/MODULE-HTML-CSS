@@ -14,7 +14,7 @@ font-style: italic;
 
 /* Article */
 
-.div_article1.div_article1{
+.div_article1:first-child{
 text-align: center;
 }
 
