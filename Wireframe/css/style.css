@@ -35,6 +35,8 @@ height: 500px;
 .subdivided_div_article1{
 text-align: left;
 padding: 10px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 
 
@@ -56,7 +58,9 @@ width:500px;
 }
 
 .subdivided_div_article2{
-margin: 10px;   
+margin: 10px;  
+font-family:Georgia, 'Times New Roman', Times, serif; 
+
 }
 
 
@@ -82,7 +86,9 @@ height: 250px;
 }
 
 .subdivided_div_article3{
-margin: 10px;     
+margin: 10px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 
