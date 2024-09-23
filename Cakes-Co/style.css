@@ -1,9 +1,13 @@
 /* ------------HEADER---------*/
 
+body {
+  margin: 0px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
-  background-color: beige;
+  background-color: #d1cfe2;
   width: 100%;
 }
 
@@ -11,6 +15,7 @@ header {
   display: grid;
   grid-template-rows: 1fr 1fr;
   justify-items: end;
+  padding-right: 10px;
 }
 
 .header-logo img {
@@ -18,14 +23,22 @@ header {
   border-radius: 50%;
 }
 
+.header-menu {
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
+}
+
 .header-menu img {
   width: 50px;
+  background-color: #d4afb9;
 }
 
 .header-text {
   font-size: 35px;
   text-wrap: wrap;
   text-align: right;
+  color: grey;
 }
 
 /* ------------MAIN---------*/
@@ -34,6 +47,7 @@ header {
 
 main {
   padding: 7px;
+  background-color: #d4afb9;
 }
 
 main h1 {
@@ -64,4 +78,26 @@ main p {
 .image-of-four img {
   width: 100%;
   height: 100%;
+}
+
+/* -----------------FOOTER-------------------*/
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: #c2bfdf;
+  margin-top: 0;
+  height: 100%;
+}
+
+.footer-box {
+  font-size: large;
+  margin-bottom: 0px;
+}
+
+.copyright {
+  text-align: center;
 }
