@@ -1,8 +1,9 @@
-/*  Add your styling here */
+/* ------------HEADER---------*/
 
 header {
   display: flex;
   justify-content: space-between;
+  background-color: beige;
 }
 
 .header-img-text {
@@ -25,3 +26,5 @@ header {
   text-wrap: wrap;
   text-align: right;
 }
+
+/* ------------HEADER---------*/
