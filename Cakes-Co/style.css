@@ -2,6 +2,7 @@
 
 body {
   margin: 0px;
+  background-color: #a79aaf;
 }
 
 header {
@@ -16,6 +17,10 @@ header {
   grid-template-rows: 1fr 1fr;
   justify-items: end;
   padding-right: 10px;
+}
+
+.header-logo {
+  margin: 10px;
 }
 
 .header-logo img {
@@ -38,7 +43,7 @@ header {
   font-size: 35px;
   text-wrap: wrap;
   text-align: right;
-  color: grey;
+  color: rgb(95, 88, 88);
 }
 
 /* ------------MAIN---------*/
@@ -52,10 +57,12 @@ main {
 
 main h1 {
   font-size: 30px;
+  color: rgb(95, 88, 88);
 }
 
 main p {
   font-size: 21px;
+  color: rgb(46, 44, 44);
 }
 
 .main-image {
@@ -88,7 +95,7 @@ hr {
 }
 
 footer {
-  background-color: #c2bfdf;
+  background-color: #a79aaf;
   margin-top: 0;
   height: 100%;
 }
