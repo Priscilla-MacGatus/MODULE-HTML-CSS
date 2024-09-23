@@ -32,6 +32,10 @@ header {
 
 /* -----------------SECTION 1-------------------*/
 
+main {
+  padding: 7px;
+}
+
 main h1 {
   font-size: 30px;
 }
@@ -42,5 +46,22 @@ main p {
 
 .main-image {
   width: 100%;
-  height: 400px;
+}
+/* -----------------SECTION 2-------------------*/
+
+.image-of-four {
+  box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.image-of-four img {
+  width: 100%;
+  height: 100%;
 }
