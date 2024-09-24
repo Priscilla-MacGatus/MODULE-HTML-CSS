@@ -108,3 +108,45 @@ footer {
 .copyright {
   text-align: center;
 }
+
+/* -----------------MEDIA QUERIES(768px)-Medium-------------------*/
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d1cfe2;
+    width: 100%;
+  }
+
+  .header-img-text {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding-right: 10px;
+    align-items: end;
+  }
+
+  .header-logo {
+    margin: 10px;
+  }
+
+  .header-logo img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .header-menu img {
+    width: 50px;
+    background-color: #d4afb9;
+  }
+
+  .header-text {
+    font-size: 35px;
+    text-wrap: wrap;
+    text-align: right;
+    color: rgb(95, 88, 88);
+  }
+}
