@@ -169,6 +169,26 @@ footer {
   }
   /* -----------------MAIN-------------------*/
 
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 30px;
+  }
+
+  nav li {
+    color: rgb(95, 88, 88);
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  nav li:hover {
+    color: #a79aaf;
+  }
+
   /* -----------------SECTION 1------------------*/
 
   .nav-heading-text-image-box {
