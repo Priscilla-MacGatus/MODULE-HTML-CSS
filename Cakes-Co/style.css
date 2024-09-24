@@ -64,11 +64,13 @@ main {
 main h1 {
   font-size: 30px;
   color: rgb(95, 88, 88);
+  margin: 10px;
 }
 
 main p {
   font-size: 21px;
   color: rgb(46, 44, 44);
+  margin: 10px;
 }
 
 .main-image {
