@@ -339,7 +339,7 @@ footer {
     padding-bottom: 10px;
     font-weight: 700;
     font-size: 16px;
-    text-shadow: 2px 2px 2px cornsilk;
+    text-shadow: 4px 2px 5px cornsilk;
   }
 
   nav li:hover {
@@ -375,7 +375,9 @@ footer {
   }
   .heading-text h1 {
     text-align: right;
-    color: rgb(41, 70, 70);
+    font-size: 70px;
+    padding: 15px;
+    color: rgb(52, 50, 53);
   }
 
   .main-text p {
