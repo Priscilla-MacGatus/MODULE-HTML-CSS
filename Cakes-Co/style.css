@@ -308,7 +308,6 @@ footer {
 
   .header-menu img {
     width: 50px;
-    background-color: #d4afb9;
   }
 
   .header-text {
@@ -347,11 +346,15 @@ footer {
     color: #a79aaf;
   }
 
+  main {
+    background-color: white;
+  }
+
   /* -----------------SECTION 1------------------*/
 
   .nav-heading-text-image-box {
     display: grid;
-    background-color: #d4afb9;
+    background-color: #a39196;
     padding-bottom: 0px;
   }
 
