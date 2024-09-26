@@ -24,6 +24,12 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-size: 25px;
+  margin-top: 5px;
+  color: rgb(78, 78, 78);
+}
+
 h3 {
   font-size: 25px;
   margin-top: 5px;
