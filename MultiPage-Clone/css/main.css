@@ -75,7 +75,7 @@ h2 {
 button {
   width: 200px;
   height: 50px;
-  margin-bottom: 18px;
+  margin-bottom: 25px;
   font-family: "Raleway";
   font-size: 20px;
   background-color: var(--White);
@@ -83,3 +83,17 @@ button {
 }
 
 /* -----------SECTION 2------------- */
+
+.main-section-2 img {
+  width: 100%;
+  height: 200px;
+}
+
+.main-section-2-text {
+  background-color: var(--Lilac);
+  font-family: "Raleway";
+
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
