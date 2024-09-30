@@ -245,18 +245,8 @@ button {
 
 /* ------------div--SECTION 5-------------- */
 
-.section-5-div1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.section-5-div2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+.section-5-div1,
+.section-5-div2,
 .section-5-div3 {
   display: flex;
   flex-direction: column;
@@ -324,4 +314,23 @@ button {
 .main-section-6 img {
   width: 80%;
   height: 700px;
+}
+/* --------------SECTION 7----------------- */
+
+.main-section-7 {
+  background-color: var(--Light-Green);
+}
+
+.main-section-7 img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.sub-section7-A,
+.sub-section7-B,
+.sub-section7-C {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
