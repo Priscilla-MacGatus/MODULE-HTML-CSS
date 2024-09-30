@@ -90,7 +90,7 @@ button {
 
 .main-section-2 img {
   width: 100%;
-  height: 200px;
+  height: 450px;
 }
 
 .main-section-2-text {
@@ -217,7 +217,83 @@ button {
   font-size: 25px;
   width: 200px;
   height: 50px;
-  margin-bottom: 4s0px;
+  margin-bottom: 40px;
   background-color: var(--Light-Green);
   border: 3px solid var(--Black);
+}
+
+/* --------------SECTION 5--------------- */
+
+.main-section-5 {
+  padding-top: 50px;
+  background-color: var(--Lilac);
+}
+
+.main-section-5 img {
+  width: 90%;
+  height: 700px;
+  margin-bottom: 20px;
+}
+
+/* ------------sUB--SECTION 5-------------- */
+.section-5-div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-5-div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-5-div3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------------sUB--SECTION 5--PARAGRAPHS------------- */
+.section-5-div1 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.section-5-div2 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.section-5-div3 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-wrap: wrap;
+}
+/* ------------sUB--SECTION 5--HEADINGS------------- */
+
+.section-5-div1 h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.section-5-div2 h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.section-5-div3 h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-wrap: wrap;
 }
