@@ -1,0 +1,46 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Black: #000;
+  --White: #fff;
+  --Lilac: #f5e8ff;
+  --Light-Green: #e6fac0;
+  --Medium-Green: #5e7d1f;
+  --Dark-Green: #394b2a;
+}
+
+/* Header*/
+
+.menu-tab {
+  height: 50px;
+  background-color: var(--Black);
+}
+
+.menu-tab p {
+  color: var(--White);
+  text-align: center;
+  font-family: "Questrial";
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.menu-icon {
+  width: 40px;
+}
+
+.nav-tab {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-tab span {
+  font-family: "Questrial";
+  font-size: 27px;
+  padding: 5px;
+}
