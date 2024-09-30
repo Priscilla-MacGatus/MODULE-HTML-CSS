@@ -230,6 +230,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
 }
 
 .main-section-5 img {
@@ -242,7 +243,7 @@ button {
   text-align: center;
 }
 
-/* ------------sUB--SECTION 5-------------- */
+/* ------------div--SECTION 5-------------- */
 
 .section-5-div1 {
   display: flex;
@@ -311,5 +312,16 @@ button {
   width: 200px;
   height: 50px;
   font-size: 25px;
+  padding: 10px;
   background-color: var(--Lilac);
+}
+/* --------------SECTION 6------------------ */
+.main-section-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-section-6 img {
+  width: 80%;
+  height: 700px;
 }
