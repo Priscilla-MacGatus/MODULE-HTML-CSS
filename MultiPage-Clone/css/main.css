@@ -119,18 +119,21 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .sub-section3-B {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .sub-section3-C {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 /* ----------SUB-SECTION 3--IMAGES----------- */
