@@ -227,6 +227,9 @@ button {
 .main-section-5 {
   padding-top: 50px;
   background-color: var(--Lilac);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-section-5 img {
@@ -235,11 +238,12 @@ button {
   margin-bottom: 20px;
 }
 
-/* ------------sUB--SECTION 5-------------- */
-
 .section-5-main-heading {
   text-align: center;
 }
+
+/* ------------sUB--SECTION 5-------------- */
+
 .section-5-div1 {
   display: flex;
   flex-direction: column;
@@ -301,4 +305,11 @@ button {
   margin-bottom: 20px;
   text-align: center;
   text-wrap: wrap;
+}
+
+.main-section-5 button {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  background-color: var(--Lilac);
 }
