@@ -20,7 +20,7 @@
 /* Header*/
 
 .menu-tab {
-  height: 50px;
+  height: 70px;
   background-color: var(--Black);
 }
 
@@ -28,9 +28,9 @@
   color: var(--White);
   text-align: center;
   font-family: "Questrial";
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300;
-  padding-top: 15px;
+  padding: 20px;
 }
 
 .menu-icon {
@@ -46,7 +46,7 @@
 
 .nav-tab span {
   font-family: "Questrial";
-  font-size: 27px;
+  font-size: 30px;
   padding: 5px;
 }
 
