@@ -14,7 +14,7 @@
 }
 
 body {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Questrial";
   font-weight: 300;
 }
@@ -35,6 +35,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 
 h3 {
@@ -42,6 +43,21 @@ h3 {
   margin-top: 50px;
 }
 
+.user-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
 .user-icon img {
   width: 70px;
+  height: 70px;
+}
+
+.user-icon h3 {
+  font-size: 30px;
+  font-family: "Questrial";
+  font-weight: 200;
 }
