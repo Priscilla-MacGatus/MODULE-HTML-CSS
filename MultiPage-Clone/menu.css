@@ -47,7 +47,7 @@
 
 /*---------------------MAIN--------------*/
 
-/*--------------------- SECTION A --------------*/
+/*--------------------- SECTIONs--------------*/
 .menu-section-A h1 {
   font-size: 30px;
   font-weight: 400;
@@ -66,7 +66,8 @@
   margin-bottom: 30px;
 }
 
-.menu-section-A h3 {
+.menu-section-A h3,
+.menu-section-B h3 {
   font-size: 28px;
   font-weight: 500;
   font-family: "Questrial";
@@ -76,14 +77,20 @@
 
 .tangerine-container img,
 .detox-glory-container img,
-.immune-x-container img {
+.immune-x-container img,
+.energizer-container img,
+.roots-fusion-container img,
+.berry-boost-container img {
   width: 80%;
   height: 400px;
 }
 
 .tangerine-container h4,
 .detox-glory-container h4,
-.immune-x-container h4 {
+.immune-x-container h4,
+.energizer-container h4,
+.roots-fusion-container h4,
+.berry-boost-container h4 {
   font-size: 20px;
   font-weight: 500;
   font-family: "Questrial";
@@ -93,7 +100,10 @@
 
 .tangerine-container p,
 .detox-glory-container p,
-.immune-x-container p {
+.immune-x-container p,
+.energizer-container p,
+.roots-fusion-container p,
+.berry-boost-container p {
   font-size: 20px;
   font-weight: 300;
   font-family: "Roboto";
@@ -104,7 +114,10 @@
 
 .tangerine-container span,
 .detox-glory-container span,
-.immune-x-container span {
+.immune-x-container span,
+.energizer-container span,
+.roots-fusion-container span,
+.berry-boost-container span {
   font-size: 25px;
   font-family: "Roboto";
   font-weight: 300;
