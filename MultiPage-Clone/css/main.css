@@ -459,6 +459,7 @@ footer {
   margin-top: 50px;
   padding: 20px;
 }
+/* --------------GET STARTED--------------- */
 
 .get-started h4 {
   font-size: 20px;
@@ -483,6 +484,7 @@ footer {
   list-style: none;
   width: 40%;
 }
+/* --------------CONNECT--------------- */
 
 .connect h4 {
   font-size: 20px;
@@ -506,6 +508,7 @@ footer {
   list-style: none;
   width: 40%;
 }
+/* --------------MAILING--------------- */
 
 .Mailing {
   margin-bottom: 70px;
@@ -549,6 +552,7 @@ footer {
   justify-content: center;
   margin-top: 50px;
 }
+/* --------------LOGO SECTION--------------- */
 
 .footer-logo {
   display: flex;
