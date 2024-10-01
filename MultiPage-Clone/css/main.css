@@ -366,3 +366,31 @@ button {
 }
 
 /* --------------SECTION 8----------------- */
+
+.main-section-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+}
+
+.main-section-8 h3 {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Questrial";
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+
+.main-section-8 p {
+  width: 50%;
+  font-size: 25px;
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 45px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-wrap: wrap;
+}
