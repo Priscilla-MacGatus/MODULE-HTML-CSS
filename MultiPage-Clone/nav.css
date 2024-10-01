@@ -14,33 +14,32 @@
 }
 
 body {
-  font-size: 30px;
-  font-family: "Questrial";
-  font-weight: 300;
-}
+  .close-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 50px;
+  }
 
-.close-icon-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin: 50px;
-}
+  .close-icon {
+    margin-top: 30px;
+    width: 30px;
+  }
 
-.close-icon {
-  margin-top: 30px;
-  width: 30px;
-}
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-h3 {
-  margin-bottom: 30px;
-  margin-top: 50px;
+  p {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: "Questrial";
+    font-weight: 300;
+  }
 }
 
 .user-icon {
@@ -56,7 +55,7 @@ h3 {
   height: 70px;
 }
 
-.user-icon h3 {
+.user-icon p {
   font-size: 30px;
   font-family: "Questrial";
   font-weight: 200;
