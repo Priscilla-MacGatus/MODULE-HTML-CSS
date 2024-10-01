@@ -22,7 +22,7 @@ body {
   }
 
   .close-icon {
-    margin-top: 30px;
+    margin: 60px;
     width: 30px;
   }
 
@@ -31,6 +31,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    padding-top: 0px;
   }
 
   p {
@@ -40,19 +41,23 @@ body {
     font-family: "Questrial";
     font-weight: 300;
   }
-}
+
+
+
 
 .user-icon {
   display: flex;
   flex-direction: row;
   justify-content: center;
   column-gap: 20px;
+  position: relative;
+  right: 72px;
 }
 
 .user-icon img {
   width: 70px;
   height: 70px;
-  align-self: flex-end;
+  align-self: center;
 }
 
 .user-icon p {
@@ -60,4 +65,9 @@ body {
   font-size: 40px;
   font-family: "Questrial";
   font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: var(--Black);
 }
