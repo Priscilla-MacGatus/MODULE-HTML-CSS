@@ -397,7 +397,6 @@ button {
 
 /* --------------FOOTER---------------- */
 
-/* 
 .image-container {
   display: flex;
   flex-direction: row;
@@ -405,6 +404,9 @@ button {
 }
 
 .footer-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
   background-color: var(--Dark-Green);
 }
@@ -416,35 +418,32 @@ button {
 
 .footer-image-1 {
   position: relative;
-  left: 120px;
-  bottom: 70px;
-  transform: rotate(-20deg);
+  left: 110px;
+  bottom: 20px;
+  transform: rotate(-45deg);
 }
 
 .footer-image-2 {
   position: relative;
-  bottom: 95px;
-  z-index: 20;
+  bottom: 160px;
+  left: 10px;
+  transform: rotate(45deg);
 }
 
 .footer-image-3 {
   position: relative;
-  right: 20px;
-  left: 50px;
-  bottom: 40px;
-  overflow-y: 30;
+  left: 54px;
+  bottom: 18px;
   transform: rotate(45deg);
+  height: 270px;
 }
 
 .footer-image-4 {
   position: relative;
-  bottom: 250px;
-  left: 230px;
-  z-index: 20;
-  transform: rotate(18deg);
-  overflow-y: hidden;
+  bottom: 160px;
+  right: 47px;
+  transform: rotate(-45deg);
 }
-*/
 
 footer {
   background-color: var(--Dark-Green);
