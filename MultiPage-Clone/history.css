@@ -50,3 +50,10 @@ body {
   font-size: 30px;
   padding: 5px;
 }
+
+/* Main*/
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
