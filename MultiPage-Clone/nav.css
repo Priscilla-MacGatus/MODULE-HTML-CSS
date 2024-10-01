@@ -1,0 +1,47 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Black: #000;
+  --White: #fff;
+  --Lilac: #f5e8ff;
+  --Light-Green: #e6fac0;
+  --Medium-Green: #5e7d1f;
+  --Dark-Green: #394b2a;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Questrial";
+  font-weight: 300;
+}
+
+.close-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 50px;
+}
+
+.close-icon {
+  margin-top: 30px;
+  width: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.user-icon img {
+  width: 70px;
+}
