@@ -44,3 +44,68 @@
   font-size: 27px;
   padding: 5px;
 }
+
+/*---------------------MAIN--------------*/
+
+/*--------------------- SECTION A --------------*/
+.menu-section-A h1 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Questrial";
+  text-align: center;
+  margin-bottom: 30px;
+  text-wrap: wrap;
+  width: 70%;
+}
+
+.menu-section-A h2 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Questrial";
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu-section-A h3 {
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Questrial";
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.tangerine-container img,
+.detox-glory-container img,
+.immune-x-container img {
+  width: 80%;
+  height: 400px;
+}
+
+.tangerine-container h4,
+.detox-glory-container h4,
+.immune-x-container h4 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Questrial";
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.tangerine-container p,
+.detox-glory-container p,
+.immune-x-container p {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Roboto";
+  line-height: 25px;
+  margin-bottom: 15px;
+  width: 60%;
+}
+
+.tangerine-container span,
+.detox-glory-container span,
+.immune-x-container span {
+  font-size: 25px;
+  font-family: "Roboto";
+  font-weight: 300;
+}
