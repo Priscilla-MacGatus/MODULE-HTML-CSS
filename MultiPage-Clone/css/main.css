@@ -209,6 +209,7 @@ button {
   font-size: 25px;
   width: 200px;
   height: 50px;
+  font-family: "Raleway";
   margin-bottom: 40px;
   background-color: var(--Light-Green);
   border: 3px solid var(--Black);
@@ -233,6 +234,10 @@ button {
 
 .section-5-main-heading {
   text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  width: 50%;
 }
 
 /* ------------div--SECTION 5-------------- */
@@ -247,53 +252,36 @@ button {
 
 /* ------------sUB--SECTION 5--PARAGRAPHS------------- */
 
-.section-5-div1 p {
-  font-size: 20px;
-  margin-bottom: 30px;
-  text-align: center;
-  text-wrap: wrap;
-}
-
-.section-5-div2 p {
-  font-size: 20px;
-  margin-bottom: 30px;
-  text-align: center;
-  text-wrap: wrap;
-}
-
+.section-5-div1 p,
+.section-5-div2 p,
 .section-5-div3 p {
-  font-size: 20px;
+  width: 50%;
+  font-size: 25px;
+  line-height: 40px;
   margin-bottom: 30px;
   text-align: center;
   text-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
+
 /* ------------sUB--SECTION 5--HEADINGS------------- */
 
-.section-5-div1 h3 {
-  font-size: 25px;
-  margin-bottom: 20px;
-  text-align: center;
-  text-wrap: wrap;
-}
-
-.section-5-div2 h3 {
-  font-size: 25px;
-  margin-bottom: 20px;
-  text-align: center;
-  text-wrap: wrap;
-}
-
+.section-5-div1 h3,
+.section-5-div2 h3,
 .section-5-div3 h3 {
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-family: "Questrial";
+  font-size: 40px;
   text-align: center;
-  text-wrap: wrap;
+  font-weight: 500;
+  width: 50%;
 }
 
 .main-section-5 button {
   width: 200px;
   height: 50px;
   font-size: 25px;
+  font-family: "Raleway";
   padding: 10px;
   background-color: var(--Lilac);
 }
