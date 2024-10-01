@@ -451,23 +451,27 @@ footer {
   color: var(--White);
 }
 
+.footer-links a {
+  text-decoration: none;
+  color: var(--White);
+}
+
 .footer-links {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 50px;
-  padding: 20px;
+  padding: 50px;
 }
 /* --------------GET STARTED--------------- */
 
 .get-started h4 {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 50px;
+  font-weight: 500;
   font-family: "Questrial";
   text-align: center;
-  margin-bottom: 20px;
-  width: 40%;
+  margin-bottom: 70px;
 }
 
 .get-started ul {
@@ -475,38 +479,35 @@ footer {
 }
 
 .get-started li {
-  font-size: 17px;
+  font-size: 30px;
   font-weight: 400;
   font-family: "Roboto";
   text-align: center;
   margin-bottom: 20px;
   text-decoration: none;
   list-style: none;
-  width: 40%;
 }
 /* --------------CONNECT--------------- */
 
 .connect h4 {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 50px;
+  font-weight: 500;
   font-family: "Questrial";
   text-align: center;
-  margin-bottom: 20px;
-  width: 40%;
+  margin-bottom: 70px;
 }
 .connect ul {
   padding-left: 0;
 }
 
 .connect li {
-  font-size: 17px;
+  font-size: 30px;
   font-weight: 400;
   font-family: "Roboto";
   text-align: center;
   margin-bottom: 20px;
   text-decoration: none;
   list-style: none;
-  width: 40%;
 }
 /* --------------MAILING--------------- */
 
@@ -519,6 +520,7 @@ footer {
   font-weight: 400;
   font-family: "Questrial";
   text-align: center;
+  margin-top: 50px;
 }
 
 .Mailing label {
