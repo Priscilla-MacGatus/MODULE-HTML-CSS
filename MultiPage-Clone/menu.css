@@ -74,7 +74,9 @@
   text-align: center;
   margin-bottom: 24px;
 }
-
+.cleanse-kit-1-container img,
+.cleanse-kit-2-container img,
+.cleanse-kit-3-container img,
 .tangerine-container img,
 .detox-glory-container img,
 .immune-x-container img,
@@ -88,6 +90,9 @@
   height: 400px;
 }
 
+.cleanse-kit-1-container h4,
+.cleanse-kit-2-container h4,
+.cleanse-kit-3-container h4,
 .tangerine-container h4,
 .detox-glory-container h4,
 .immune-x-container h4,
@@ -104,6 +109,9 @@
   margin-top: 15px;
 }
 
+.cleanse-kit-1-container p,
+.cleanse-kit-2-container p,
+.cleanse-kit-3-container p,
 .tangerine-container p,
 .detox-glory-container p,
 .immune-x-container p,
@@ -121,6 +129,9 @@
   width: 60%;
 }
 
+.cleanse-kit-1-container span,
+.cleanse-kit-1-container span,
+.cleanse-kit-1-container span,
 .tangerine-container span,
 .detox-glory-container span,
 .immune-x-container span,
@@ -134,3 +145,4 @@
   font-family: "Roboto";
   font-weight: 300;
 }
+/*---------------------FOOTER--------------*/
