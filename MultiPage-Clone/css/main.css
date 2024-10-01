@@ -163,7 +163,7 @@ button {
   font-weight: 300;
   line-height: 40px;
   text-wrap: wrap;
-  width: 50%;
+  width: 85%;
 }
 
 /* --------------SECTION 4--------------- */
@@ -194,11 +194,11 @@ button {
   margin-bottom: 20px;
   text-align: center;
   text-wrap: wrap;
-  width: 50%;
+  width: 80%;
 }
 
 .sub-section-4 p {
-  width: 70%;
+  width: 80%;
   font-size: 25px;
   font-weight: 300;
   font-family: "Roboto";
@@ -311,7 +311,7 @@ button {
 }
 
 .main-section-6 p {
-  width: 50%;
+  width: 80%;
   font-size: 25px;
   font-family: "Roboto";
   font-weight: 300;
@@ -355,7 +355,7 @@ button {
 .sub-section7-A p,
 .sub-section7-B p,
 .sub-section7-C p {
-  width: 50%;
+  width: 70%;
   font-size: 25px;
   font-family: "Roboto";
   font-weight: 300;
@@ -393,4 +393,185 @@ button {
   margin-bottom: 30px;
   text-align: center;
   text-wrap: wrap;
+}
+
+/* --------------FOOTER---------------- */
+
+/* 
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-images {
+  width: 100%;
+  background-color: var(--Dark-Green);
+}
+
+.footer-images img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-image-1 {
+  position: relative;
+  left: 120px;
+  bottom: 70px;
+  transform: rotate(-20deg);
+}
+
+.footer-image-2 {
+  position: relative;
+  bottom: 95px;
+  z-index: 20;
+}
+
+.footer-image-3 {
+  position: relative;
+  right: 20px;
+  left: 50px;
+  bottom: 40px;
+  overflow-y: 30;
+  transform: rotate(45deg);
+}
+
+.footer-image-4 {
+  position: relative;
+  bottom: 250px;
+  left: 230px;
+  z-index: 20;
+  transform: rotate(18deg);
+  overflow-y: hidden;
+}
+*/
+
+footer {
+  background-color: var(--Dark-Green);
+  color: var(--White);
+}
+
+.footer-links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.get-started h4 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Questrial";
+  text-align: center;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.get-started ul {
+  padding-left: 0;
+}
+
+.get-started li {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  list-style: none;
+  width: 40%;
+}
+
+.connect h4 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Questrial";
+  text-align: center;
+  margin-bottom: 20px;
+  width: 40%;
+}
+.connect ul {
+  padding-left: 0;
+}
+
+.connect li {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  list-style: none;
+  width: 40%;
+}
+
+.Mailing {
+  margin-bottom: 70px;
+}
+
+.Mailing h4 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Questrial";
+  text-align: center;
+}
+
+.Mailing label {
+  font-size: 40px;
+  font-family: "Roboto";
+  font-weight: 300;
+  text-align: center;
+}
+
+.Mailing input {
+  background-color: var(--Dark-Green);
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 3px solid var(--Black);
+  border-bottom: #5e7d1f;
+  outline-width: 3px;
+}
+
+.Mailing button {
+  background-color: var(--Dark-Green);
+  border: 3px solid var(--White);
+  color: var(--White);
+  font-size: 25px;
+  font-family: "Raleway";
+  height: 70px;
+}
+
+.mailing-subsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.footer-logo img {
+  width: 300px;
+}
+.footer-logo h4 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Questrial";
+  text-align: left;
+  text-decoration: underline;
+}
+
+.footer-logo p {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Roboto";
+  text-align: left;
 }
