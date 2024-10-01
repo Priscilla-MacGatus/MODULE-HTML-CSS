@@ -29,6 +29,7 @@
   text-align: center;
   font-family: "Questrial";
   font-size: 20px;
+  font-weight: 300;
   padding-top: 15px;
 }
 
@@ -257,6 +258,7 @@ button {
 .section-5-div3 p {
   width: 50%;
   font-size: 25px;
+  font-weight: 300;
   line-height: 40px;
   margin-bottom: 30px;
   text-align: center;
@@ -294,7 +296,30 @@ button {
 .main-section-6 img {
   width: 80%;
   height: 700px;
+  margin-top: 50px;
 }
+
+.main-section-6 h3 {
+  font-size: 45px;
+  width: 50%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main-section-6 p {
+  width: 50%;
+  font-size: 25px;
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 45px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
 /* --------------SECTION 7----------------- */
 
 .main-section-7 {
