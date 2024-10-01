@@ -80,7 +80,10 @@
 .immune-x-container img,
 .energizer-container img,
 .roots-fusion-container img,
-.berry-boost-container img {
+.berry-boost-container img,
+.probiotic-x-container img,
+.the-defender-container img,
+.pro-vitality-container img {
   width: 80%;
   height: 400px;
 }
@@ -90,7 +93,10 @@
 .immune-x-container h4,
 .energizer-container h4,
 .roots-fusion-container h4,
-.berry-boost-container h4 {
+.berry-boost-container h4,
+.probiotic-x-container h4,
+.the-defender-container h4,
+.pro-vitality-container h4 {
   font-size: 20px;
   font-weight: 500;
   font-family: "Questrial";
@@ -103,7 +109,10 @@
 .immune-x-container p,
 .energizer-container p,
 .roots-fusion-container p,
-.berry-boost-container p {
+.berry-boost-container p,
+.probiotic-x-container p,
+.the-defender-container p,
+.pro-vitality-container p {
   font-size: 20px;
   font-weight: 300;
   font-family: "Roboto";
@@ -117,7 +126,10 @@
 .immune-x-container span,
 .energizer-container span,
 .roots-fusion-container span,
-.berry-boost-container span {
+.berry-boost-container span,
+.probiotic-x-container span,
+.the-defender-container span,
+.pro-vitality-container span {
   font-size: 25px;
   font-family: "Roboto";
   font-weight: 300;
