@@ -13,37 +13,33 @@
   --Dark-Green: #394b2a;
 }
 
-body {
-  .close-icon-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 50px;
-  }
+.close-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 50px;
+}
 
-  .close-icon {
-    margin: 60px;
-    width: 30px;
-  }
+.close-icon {
+  margin: 60px;
+  width: 30px;
+}
 
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    padding-top: 0px;
-  }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-top: 0px;
+}
 
-  p {
-    margin-bottom: 30px;
-    margin-top: 50px;
-    font-size: 40px;
-    font-family: "Questrial";
-    font-weight: 300;
-  }
-
-
-
+p {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Questrial";
+  font-weight: 300;
+}
 
 .user-icon {
   display: flex;
