@@ -689,6 +689,8 @@ footer {
 
   .nav-tab span {
     align-self: center;
+    position: relative;
+    right: 55px;
   }
 
   header {
