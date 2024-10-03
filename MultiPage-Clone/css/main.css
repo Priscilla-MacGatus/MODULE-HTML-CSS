@@ -640,6 +640,58 @@ footer {
 /*--------------------------------LARGE SCREENS-----------------*/
 
 @media (min-width: 768px) {
+  .user-icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .user-icon p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Roboto";
+  }
+
+  .user-icon {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .menu-tab {
+    width: 55%;
+    height: 100%;
+  }
+
+  .user-icon-and-menu-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 40%;
+    column-gap: 10px;
+  }
+
+  .nav-tab {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  .nav-tab span {
+    align-self: center;
+  }
+
+  header {
+    height: 10vh;
+    column-gap: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
   /* -----------SECTION 1------------- */
 
   .main-section-1 {
@@ -742,6 +794,7 @@ footer {
 
   .sub-section-4 h3 {
     font-size: 60px;
+    line-height: 70px;
   }
   .sub-section-4 p {
     font-size: 17px;
@@ -814,4 +867,77 @@ footer {
   }
 
   /* -----------SECTION 6------------ */
+
+  .main-section-6 h3 {
+    font-size: 50px;
+  }
+  .main-section-6 img {
+    width: 600px;
+    height: 600px;
+  }
+
+  .subsection-6-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    margin-left: 150px;
+  }
+
+  .sub-section-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0px;
+    padding: 100px;
+  }
+
+  .sub-section-6 h3,
+  .sub-section-6 p {
+    text-align: left;
+  }
+
+  /* -----------SECTION 7------------ */
+
+  .main-section-7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .sub-section7-A,
+  .sub-section7-B,
+  .sub-section7-C {
+    display: flex;
+    align-items: flex-start;
+    margin: 100px;
+  }
+
+  .sub-section7-A p,
+  .sub-section7-B p,
+  .sub-section7-C p {
+    text-align: left;
+  }
+
+  /* -----------FOOTER------------ */
+  .footer-links-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    column-gap: 70px;
+    position: relative;
+    top: 80px;
+  }
+
+  .footer-links {
+    align-self: flex-start;
+  }
+
+  .mailing-subsection input {
+    width: 250px;
+  }
+
+  .Mailing button {
+    width: 150px;
+    position: relative;
+    left: 100px;
+  }
 }
