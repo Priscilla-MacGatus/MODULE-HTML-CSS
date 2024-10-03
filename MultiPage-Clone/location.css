@@ -350,3 +350,128 @@ footer {
   font-family: "Roboto";
   text-align: left;
 }
+@media (min-width: 768px) {
+  .user-icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .user-icon p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Roboto";
+  }
+
+  .user-icon {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .menu-tab {
+    width: 55%;
+    height: 100%;
+  }
+
+  .user-icon-and-menu-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 40%;
+    column-gap: 10px;
+  }
+
+  .nav-tab {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  .nav-tab span {
+    align-self: center;
+    position: relative;
+    right: 100px;
+  }
+
+  header {
+    height: 10vh;
+    column-gap: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  /* -----------MAIN------------- */
+  main {
+    margin-top: 40px;
+  }
+
+  main h1 {
+    font-size: 70px;
+  }
+
+  main h2 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  main p {
+    font-size: 19px;
+    width: 40%;
+  }
+
+  .first-last-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: 30px;
+  }
+  .address-box {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+  }
+
+  .image-box {
+    width: 60%;
+  }
+
+  .form-button-contact-address-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .address-info p,
+  .contact-info p {
+    font-size: 19px;
+  }
+
+  /* -----------FOOTER------------ */
+
+  .footer-links-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    column-gap: 70px;
+    position: relative;
+    top: 80px;
+  }
+
+  .footer-links {
+    align-self: flex-start;
+  }
+
+  .mailing-subsection input {
+    width: 250px;
+  }
+
+  .Mailing button {
+    width: 150px;
+    position: relative;
+    left: 100px;
+  }
+}
