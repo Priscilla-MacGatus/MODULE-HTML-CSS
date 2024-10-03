@@ -275,6 +275,7 @@ footer {
 
 .mailing-subsection input {
   border: none;
+  outline: none;
   background-color: var(--Dark-Green);
   border-bottom: 3px solid var(--White);
   padding: 5px;
