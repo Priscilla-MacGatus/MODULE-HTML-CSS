@@ -33,6 +33,11 @@ body {
   padding: 20px;
 }
 
+header a {
+  text-decoration: none;
+  color: none;
+}
+
 .menu-icon {
   width: 40px;
 }
