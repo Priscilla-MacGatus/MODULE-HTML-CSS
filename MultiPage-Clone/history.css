@@ -54,7 +54,14 @@ body {
 
 /* Main*/
 
-h1 {
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h1 {
   font-family: "Questrial";
   font-weight: 400;
   font-size: 35px;
@@ -62,8 +69,7 @@ h1 {
   margin-bottom: 25px;
   margin-top: 30px;
 }
-
-p {
+main p {
   width: 70%;
   font-size: 25px;
   font-weight: 300;
@@ -72,13 +78,6 @@ p {
   margin-bottom: 25px;
   text-wrap: wrap;
   text-align: center;
-}
-
-main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 main img {
@@ -188,17 +187,17 @@ footer {
   text-align: center;
 }
 
-.Mailing input {
-  background-color: var(--Dark-Green);
-  border-bottom: 3px solid var(--Black);
+.mailing-subsection input {
   border: none;
-  outline: none;
+  background-color: var(--Dark-Green);
+  border-bottom: 3px solid var(--White);
   padding: 5px;
   font-size: 20px;
+  outline: none;
   color: var(--White);
   width: 100%;
+  margin-top: 10px;
 }
-
 .Mailing input:focus {
   border-bottom: 2px solid var(--White);
 }
