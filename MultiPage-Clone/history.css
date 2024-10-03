@@ -25,6 +25,11 @@ body {
   background-color: var(--Black);
 }
 
+header a {
+  text-decoration: none;
+  color: none;
+}
+
 .menu-tab p {
   color: var(--White);
   text-align: center;
