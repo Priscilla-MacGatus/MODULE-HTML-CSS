@@ -251,3 +251,103 @@ footer {
   font-family: "Roboto";
   text-align: left;
 }
+
+@media (min-width: 768px) {
+  .user-icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .user-icon p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Roboto";
+  }
+
+  .user-icon {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .menu-tab {
+    width: 55%;
+    height: 100%;
+  }
+
+  .user-icon-and-menu-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 40%;
+    column-gap: 10px;
+  }
+
+  .nav-tab {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  .nav-tab span {
+    align-self: center;
+    position: relative;
+    right: 55px;
+  }
+
+  header {
+    height: 10vh;
+    column-gap: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  /* --------------MAIN-------------- */
+
+  main p {
+    width: 40%;
+
+    font-size: 20px;
+  }
+
+  main img {
+    width: 100%;
+    height: 80vh;
+  }
+
+  main h1 {
+    font-size: 50px;
+    font-family: "Questrial";
+  }
+  .image-container {
+    display: flex;
+    flex-direction: row;
+  }
+  /* -------------------FOOTER------------- */
+  .footer-links-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    column-gap: 70px;
+    position: relative;
+    top: 80px;
+  }
+
+  .footer-links {
+    align-self: flex-start;
+  }
+
+  .mailing-subsection input {
+    width: 250px;
+  }
+
+  .Mailing button {
+    width: 150px;
+    position: relative;
+    left: 100px;
+  }
+}
