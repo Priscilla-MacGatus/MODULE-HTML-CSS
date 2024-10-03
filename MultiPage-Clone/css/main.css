@@ -553,19 +553,15 @@ footer {
   text-align: center;
 }
 
-.Mailing input {
-  background-color: var(--Dark-Green);
-  border-bottom: 3px solid var(--Black);
+.mailing-subsection input {
   border: none;
-  outline: none;
+  background-color: var(--Dark-Green);
+  border-bottom: 3px solid var(--White);
   padding: 5px;
   font-size: 20px;
   color: var(--White);
   width: 100%;
-}
-
-.Mailing input:focus {
-  border-bottom: 2px solid var(--White);
+  margin-top: 10px;
 }
 
 .Mailing button {
