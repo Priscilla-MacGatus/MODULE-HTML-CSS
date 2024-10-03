@@ -377,6 +377,8 @@ footer {
 
   .nav-tab span {
     align-self: center;
+    position: relative;
+    right: 55px;
   }
 
   header {
@@ -392,8 +394,11 @@ footer {
   }
 
   h1 {
-    display: none;
+    font-size: 50px;
+    padding: 50px;
+    width: 100%;
   }
+
   /* -------------------MAIN-------------- */
 
   .Product-1,
@@ -416,5 +421,28 @@ footer {
   main {
     padding-left: 20%;
     padding-right: 20%;
+  }
+
+  /* -------------------FOOTER------------ */
+  .footer-links-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    column-gap: 70px;
+    position: relative;
+    top: 80px;
+  }
+
+  .footer-links {
+    align-self: flex-start;
+  }
+
+  .mailing-subsection input {
+    width: 250px;
+  }
+
+  .Mailing button {
+    width: 150px;
+    position: relative;
+    left: 100px;
   }
 }
