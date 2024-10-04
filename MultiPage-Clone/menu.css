@@ -509,4 +509,17 @@ footer {
     position: relative;
     left: 100px;
   }
+
+  .Mailing {
+    position: relative;
+    top: 40px;
+  }
+
+  .footer-logo h4 {
+    font-size: 25px;
+  }
+  .footer-logo {
+    position: relative;
+    top: 90px;
+  }
 }
