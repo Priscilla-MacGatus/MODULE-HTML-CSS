@@ -24,6 +24,10 @@ header {
   height: 250px;
 }
 
+header a {
+  text-decoration: none;
+}
+
 .menu-tab {
   height: 60px;
   background-color: var(--Black);
