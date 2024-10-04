@@ -136,7 +136,8 @@ h1 {
 
 form {
   padding: 20px;
-  width: 85%;
+  width: 80%;
+  padding: 50px;
 }
 
 form p {
@@ -194,8 +195,9 @@ form p {
 }
 
 .submit-button button {
+  margin-left: 27px;
   font-size: 20px;
-  width: 80%;
+  width: 90%;
   height: 80px;
   color: var(--White);
   font-family: "Raleway";
