@@ -355,8 +355,8 @@ footer {
   }
 
   .menu-tab {
-    width: 55%;
-    height: 100%;
+    width: 30%;
+    height: 90%;
   }
 
   .user-icon-and-menu-tab {
@@ -373,6 +373,7 @@ footer {
     align-self: center;
     justify-content: space-between;
     width: 70%;
+    padding-left: 20px;
   }
 
   .nav-tab span {
@@ -395,11 +396,72 @@ footer {
 
   h1 {
     font-size: 50px;
+    text-align: center;
     padding: 50px;
     width: 100%;
   }
 
   /* -------------------MAIN-------------- */
+  .menu-section-A h2,
+  .menu-section-A h3,
+  .menu-section-B h3,
+  .menu-section-C h3,
+  .menu-section-D h3 {
+    position: relative;
+    right: 45px;
+  }
+
+  .menu-section-A h3,
+  .menu-section-B h3,
+  .menu-section-C h3,
+  .menu-section-D h3 {
+    margin-bottom: 30px;
+  }
+
+  .menu-section-A h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+
+  .cleanse-kit-1-container h4,
+  .cleanse-kit-2-container h4,
+  .cleanse-kit-3-container h4,
+  .tangerine-container h4,
+  .detox-glory-container h4,
+  .immune-x-container h4,
+  .energizer-container h4,
+  .roots-fusion-container h4,
+  .berry-boost-container h4,
+  .probiotic-x-container h4,
+  .the-defender-container h4,
+  .pro-vitality-container h4,
+  .cleanse-kit-1-container p,
+  .cleanse-kit-2-container p,
+  .cleanse-kit-3-container p,
+  .tangerine-container p,
+  .detox-glory-container p,
+  .immune-x-container p,
+  .energizer-container p,
+  .roots-fusion-container p,
+  .berry-boost-container p,
+  .probiotic-x-container p,
+  .the-defender-container p,
+  .pro-vitality-container p,
+  .cleanse-kit-1-container span,
+  .cleanse-kit-2-container span,
+  .cleanse-kit-3-container span,
+  .tangerine-container span,
+  .detox-glory-container span,
+  .immune-x-container span,
+  .energizer-container span,
+  .roots-fusion-container span,
+  .berry-boost-container span,
+  .probiotic-x-container span,
+  .the-defender-container span,
+  .pro-vitality-container span {
+    text-align: center;
+    width: 80%;
+  }
 
   .Product-1,
   .Product-2,
@@ -407,8 +469,9 @@ footer {
   .Product-4 {
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
+    column-gap: 15px;
     row-gap: 20px;
+    margin-bottom: 100px;
   }
 
   .Product-1 img,
@@ -418,9 +481,10 @@ footer {
     width: 300px;
     height: 300px;
   }
+
   main {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 23%;
+    padding-right: 18%;
   }
 
   /* -------------------FOOTER------------ */
