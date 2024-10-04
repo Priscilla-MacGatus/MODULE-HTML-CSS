@@ -417,7 +417,7 @@ footer {
 
   footer {
     background-color: var(--Dark-Green);
-    height: 70vh;
+    height: 100vh;
     margin-top: 70px;
   }
 }
