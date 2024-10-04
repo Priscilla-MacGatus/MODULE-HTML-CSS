@@ -252,6 +252,8 @@ footer {
   text-align: left;
 }
 
+/* --------------------------LARGE QUERIES-------------- */
+
 @media (min-width: 768px) {
   .user-icon img {
     width: 30px;
@@ -273,8 +275,8 @@ footer {
   }
 
   .menu-tab {
-    width: 55%;
-    height: 100%;
+    width: 30%;
+    height: 90%;
   }
 
   .user-icon-and-menu-tab {
@@ -311,7 +313,7 @@ footer {
 
   main p {
     width: 40%;
-
+    margin-bottom: 40px;
     font-size: 20px;
   }
 
@@ -321,13 +323,35 @@ footer {
   }
 
   main h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-family: "Questrial";
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
+
   .image-container {
+    height: 50vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 200px;
+    margin-top: 150px;
   }
+
+  .pear-img,
+  .fruit-in-a-hanging-sack-img {
+    position: relative;
+    bottom: 50px;
+    height: 35vh;
+  }
+
+  .fruit-in-sack-img,
+  .hand-and-beetroot-img {
+    position: relative;
+    top: 50px;
+    height: 40vh;
+  }
+
   /* -------------------FOOTER------------- */
   .footer-links-container {
     display: grid;
@@ -349,5 +373,18 @@ footer {
     width: 150px;
     position: relative;
     left: 100px;
+  }
+
+  .Mailing {
+    position: relative;
+    top: 40px;
+  }
+
+  .footer-logo h4 {
+    font-size: 25px;
+  }
+  .footer-logo {
+    position: relative;
+    top: 90px;
   }
 }
