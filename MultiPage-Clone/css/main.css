@@ -64,6 +64,11 @@ header a {
   padding: 5px;
 }
 
+.nav-tab a {
+  text-decoration: none;
+  color: var(--Black);
+}
+
 /* -----------SECTION 1------------- */
 
 .main-section-1 {
