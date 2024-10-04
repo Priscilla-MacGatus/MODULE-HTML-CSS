@@ -76,7 +76,7 @@ main h1 {
   font-size: 35px;
   text-align: center;
   margin-bottom: 25px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 main p {
   width: 70%;
@@ -84,7 +84,7 @@ main p {
   font-weight: 300;
   font-family: "Roboto";
   line-height: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
   text-wrap: wrap;
   text-align: center;
 }
@@ -100,14 +100,26 @@ main img {
   grid-template-rows: 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
+  padding: 30px;
+  margin-bottom: 40px;
 }
 
 .pear-img,
 .fruit-in-sack-img,
 .hand-and-beetroot-img,
 .fruit-in-a-hanging-sack-img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
+}
+
+.pear-img {
+  position: relative;
+  bottom: 50px;
+}
+
+.hand-and-beetroot-img {
+  position: relative;
+  top: 50px;
 }
 
 /*-------FOOTER----*/
