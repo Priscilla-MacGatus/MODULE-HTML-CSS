@@ -337,6 +337,12 @@ footer {
   text-align: left;
 }
 
+.educational {
+  text-align: center;
+  margin-left: 20px;
+  padding: 30px;
+}
+
 /* ----------------LARGER SCREEN-------------- */
 
 @media (min-width: 768px) {
