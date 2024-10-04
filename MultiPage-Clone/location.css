@@ -19,6 +19,10 @@ body {
 
 /*-- ---------------HEADER---------------*/
 
+.user-icon {
+  display: none;
+}
+
 .menu-tab {
   height: 70px;
   background-color: var(--Black);
@@ -75,7 +79,7 @@ h1 {
 .address-1,
 .address-2,
 .address-3 {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   margin-top: 25px;
 }
 
@@ -135,6 +139,18 @@ form {
   width: 85%;
 }
 
+form p {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 25px;
+  font-family: "Roboto";
+  width: 70%;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+  left: 80px;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -179,8 +195,8 @@ form {
 
 .submit-button button {
   font-size: 20px;
-  width: 200px;
-  height: 50px;
+  width: 100%;
+  height: 80px;
   color: var(--White);
   font-family: "Raleway";
   margin-bottom: 40px;
@@ -350,6 +366,9 @@ footer {
   font-family: "Roboto";
   text-align: left;
 }
+
+/* -------------LARGER SCREEN-------------- */
+
 @media (min-width: 768px) {
   .user-icon img {
     width: 30px;
