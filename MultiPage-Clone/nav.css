@@ -48,23 +48,29 @@ p {
 .user-icon {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  column-gap: 20px;
+  justify-content: flex-start;
   position: relative;
   right: 72px;
+  width: 100;
 }
 
 .user-icon img {
-  width: 70px;
-  height: 70px;
-  align-self: center;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-left: 20px;
+  bottom: 10px;
 }
 
 .user-icon p {
   align-self: center;
-  font-size: 40px;
+  font-size: 30px;
   font-family: "Questrial";
   font-weight: 300;
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
+  margin-left: 20px;
 }
 
 a {
