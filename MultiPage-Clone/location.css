@@ -225,6 +225,10 @@ form p {
   text-align: center;
 }
 
+hr {
+  display: none;
+}
+
 /*-- ----------------FOOTER----------------*/
 
 footer {
