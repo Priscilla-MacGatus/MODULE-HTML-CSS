@@ -87,8 +87,8 @@ h1 {
   font-weight: 400;
   font-family: "Questrial";
   text-align: center;
-  margin-bottom: 50px;
   text-wrap: wrap;
+  padding-bottom: 50px;
   background-color: var(--White);
 }
 
