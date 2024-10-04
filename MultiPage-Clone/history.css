@@ -20,6 +20,10 @@ body {
 
 /* Header*/
 
+.user-icon {
+  display: none;
+}
+
 .menu-tab {
   height: 70px;
   background-color: var(--Black);

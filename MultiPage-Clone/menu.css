@@ -54,6 +54,9 @@ header {
   padding: 5px;
 }
 
+.user-icon {
+  display: none;
+}
 /*---------------------MAIN--------------*/
 
 .menu-content {
