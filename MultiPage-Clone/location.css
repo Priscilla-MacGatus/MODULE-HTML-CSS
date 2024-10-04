@@ -510,6 +510,7 @@ footer {
   }
 
   hr {
+    display: inline;
     border: 1px solid var(--Black);
     position: relative;
     right: 50px;
