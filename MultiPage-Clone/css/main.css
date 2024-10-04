@@ -652,6 +652,12 @@ footer {
   font-family: "Roboto";
   text-align: left;
 }
+
+.educational {
+  text-align: center;
+  margin-left: 20px;
+  padding: 30px;
+}
 /*--------------------------------LARGE SCREENS-----------------*/
 
 @media (min-width: 768px) {
