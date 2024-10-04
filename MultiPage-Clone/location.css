@@ -468,7 +468,6 @@ footer {
   .form-button-contact-address-info {
     display: flex;
     flex-direction: row;
-    column-gap: 50px;
   }
 
   form p {
@@ -479,8 +478,19 @@ footer {
     font-family: "Roboto";
   }
 
+  hr {
+    border: 1px solid var(--Black);
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+  }
+
   .contact-info {
     margin-bottom: 100px;
+  }
+
+  .contact-and-address {
+    margin-left: 25px;
   }
 
   .address-info p,
