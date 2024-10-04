@@ -667,8 +667,8 @@ footer {
   }
 
   .menu-tab {
-    width: 55%;
-    height: 100%;
+    width: 30%;
+    height: 90%;
   }
 
   .user-icon-and-menu-tab {
@@ -691,6 +691,9 @@ footer {
     align-self: center;
     position: relative;
     right: 55px;
+  }
+  .nav-tab {
+    padding-left: 30px;
   }
 
   header {
