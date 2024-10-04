@@ -371,8 +371,8 @@ footer {
   }
 
   .menu-tab {
-    width: 55%;
-    height: 100%;
+    width: 30%;
+    height: 90%;
   }
 
   .user-icon-and-menu-tab {
@@ -412,6 +412,7 @@ footer {
 
   main h1 {
     font-size: 70px;
+    margin-bottom: 70px;
   }
 
   main h2 {
@@ -434,21 +435,58 @@ footer {
   .address-box {
     display: flex;
     flex-direction: row;
-    column-gap: 100px;
+    column-gap: 300px;
+    margin-bottom: 30px;
   }
 
-  .image-box {
-    width: 60%;
+  .address-1 p,
+  .address-2 p,
+  .address-3 p {
+    text-align: left;
+    margin-bottom: 7px;
+    font-size: 19px;
+  }
+
+  .address-1 h2,
+  .address-2 h2,
+  .address-3 h2 {
+    font-size: 23px;
+    text-align: left;
+    font-weight: 200;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .Contact-us {
+    font-size: 60px;
+    margin-bottom: 70px;
   }
 
   .form-button-contact-address-info {
     display: flex;
     flex-direction: row;
+    column-gap: 50px;
+  }
+
+  form p {
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 25px;
+    width: 100%;
+    font-family: "Roboto";
+  }
+
+  .contact-info {
+    margin-bottom: 100px;
   }
 
   .address-info p,
   .contact-info p {
     font-size: 19px;
+    text-align: left;
   }
 
   /* -----------FOOTER------------ */
@@ -486,5 +524,16 @@ footer {
   .footer-logo {
     position: relative;
     top: 90px;
+  }
+  .educational {
+    font-size: 20px;
+    color: var(--White);
+    text-align: center;
+  }
+
+  footer {
+    background-color: var(--Dark-Green);
+    height: 70vh;
+    margin-top: 70px;
   }
 }
