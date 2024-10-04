@@ -35,9 +35,8 @@ header a {
 
 .nav-tab a {
   text-decoration: none;
-  color: none;
+  color: var(--Black);
 }
-
 .menu-tab p {
   color: var(--White);
   text-align: center;
